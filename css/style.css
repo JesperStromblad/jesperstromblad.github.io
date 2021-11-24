@@ -440,10 +440,18 @@ figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+
+ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
 #fh5co-features .feature-left .icon i {
   display: table-cell;
   vertical-align: middle;
-  height: 60px;
+  /* height: 60px; */
+  min-height: 100%;
   color: #dd356e !important;
 }
 #fh5co-features .feature-left .feature-copy {
@@ -661,6 +669,7 @@ figure {
 
 #fh5co-started {
   border-bottom: none;
+  min-height: 100%;
 }
 
 .fh5co-social-icons {
